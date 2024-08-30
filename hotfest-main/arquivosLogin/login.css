@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #B21A18;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f2eeeb;
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+
+img{
+
+    height: 120px;
+    margin-top: 60px;
+
+    
+}
+
+
+.dadosLoginDois{
+
+   border: 4px solid #ffff;
+   border-radius: 10px;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 40px; 
+   padding-bottom: 20px;
+   align-items: justify;
+   text-align: justify;
+   font-size: 18px;
+   background-color: #ffff; 
+   box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.2);
+   margin-top: 70px;
+   
+}
+
+.dadosLogin {
+
+    margin-top: 50px;
+}
+
+.enviar{
+    
+    color: #B21A18;
+    font-family: "Poppins", sans-serif;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background-color: #F5F5F5;
+    border: 1px, solid #ABA9A9;
+    font-size: 20px;
+    width: 150px;
+    
+}
+
+.loginpag {
+
+    display: flex;
+	justify-content: space-around;
+	margin: auto;
+	width: 80%;
+	align-items: center;
+    
+}
+
+input {
+    
+    background-color: #F5F5F5;
+    border: 1px solid #ABA9A9;
+    width: 350px;
+	height: 30px;
+	font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.fazer_cadastro{
+
+    color: #B21A18;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    border: #ffffff;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: -60px;
+    
+    
+}
