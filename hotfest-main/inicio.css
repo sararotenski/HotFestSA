@@ -17,7 +17,8 @@ body{
     border-radius: 100px;
     box-shadow: 30px #7D7373;
     padding: 20px;
-    width: 600px;
+    width: 6000px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
