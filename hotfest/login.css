@@ -61,6 +61,7 @@ img{
     border: 1px, solid #ABA9A9;
     font-size: 20px;
     width: 150px;
+    cursor: pointer; 
     
 }
 
@@ -95,13 +96,21 @@ input {
     align-content: center;
     text-align: center;
     justify-content: center;
+    cursor: pointer; 
     
 }
 
 .titulo {
+
     font-size: 50px;
     font-weight: 600;
     margin-bottom: -60px;
     
-    
+}
+
+.coroa {
+
+    margin-top: 5px;
+    cursor: pointer; 
+
 }

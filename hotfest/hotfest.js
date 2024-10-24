@@ -79,3 +79,15 @@ function enviarLogin() {
     }
     
 }
+
+function abrirTelaAdmin() {
+
+    window.location.href = "telaAdmin.html"
+
+}
+
+function abrirCadastro() {
+
+    window.location.href = "cadastro.html"
+    
+}
