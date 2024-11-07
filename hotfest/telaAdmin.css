@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body{
+    background-color: #B21A18;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#inptBusca{
+
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-size: 20px;
+    border: solid #F1EEEE;
+    border-radius: 100px;
+    padding: 20px;
+    width: 1000px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F1EEEE;
+    margin-left: 20px;
+    
+    
+}
+
+.coroa{
+
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-left: 150px;
+    
+}
+
+.linha{
+    
+    height: 75px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+
+.branco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffff;
+    padding: 50px;
+    
+}
+
+.logo{
+    
+    width: 15%;
+    cursor: pointer;
+    display: inline-block;
+    
+}
+
+.lupaImg{
+    
+    width: 4%;
+    margin-right: -980px;
+    margin-top: 65px;
+}
+
+
+
+.iconeImg {
+
+    width: 50px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 20px;
+    
+}
+
+.icones{
+
+    margin-right: 50px;
+}
+
+.carrinhoImg {
+    
+    width: 50px;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px
+}
+
+
+input {
+    background-color: white;
+}
+
+#modalCadastroDeProduto {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000094;
+}
+
+#btnAbrirModal {
+    border-radius: 50px;
+    background-color: #ffd930;
+    width: 250px;
+    height: 50px;
+    margin-top: 500px;
+    color: #B21A18;
+    font-size: 20px;
+    border: 1px solid #ffd930;
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 350px;
+    border: 1px solid #888;
+    width: 30%;
+    overflow-x: hidden;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 200px;
+    text-align: justify;
+    
+}
+
+.x {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+ }
+
+ .tituloCadastro {
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ 
+ .inputs {
+    margin-left: 100px;
+ }
+
+ #btnCadastrarProduto {
+    border-radius: 50px;
+    color: white;
+    background-color: #B21A18;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+ }
+
+ #produtos {
+    margin-top: 20px;
+}
+
+#produtos h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #ffd930;
+    text-align: center;
+}
+
+#listaProdutos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.produto-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.produto-item:hover {
+    transform: scale(1.05);
+}
+
+.produto-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.produto-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.produto-item span {
+    font-weight: bold;
+    color: #333;
+}
+
+.inptNome{
+
+    border: solid 1px #22131300;
+    border-radius: 5px;
+    border-style: solid;
+    height: 20px;
+}
+
+.inptPreco{
+
+    border: solid 1px #22131300;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.inptDesc{
+
+    border: solid 1px #22131300;
+    border-radius: 5px;
+    height: 20px;
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela inicial</title>
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body>
+    
+
+    <div class="branco">
+
+        <img class="logo" src="HotFest.png" alt="logo">
+
+        <div class="BarraPesquisa">
+            <input type="text" style="margin-bottom: -35px;" id="inptBusca" placeholder="Busca ex: (sobremesas...)"></input>
+                <img class = "lupaImg" style="margin-top: -19px;" src="lupa.png" alt="lupa">
+        </div>
+
+        <div class = 'icones'>
+            <img onclick = "abrirCadastro()" class = "iconeImg" src="icone.png">
+            <img class="linha" src="linha.png" alt="linha">
+            <img onclick="abrirModal()" class = "carrinhoImg" src="carrinho.png">
+        </div>
+    </div>
+
+    <div class="promocao">
+        <img class="promocao" src="promocao.png" alt="promocao">
+    </div>
+
+
+    <div id="modalCarrinho" class="modal">
+        <div class="modal-content">
+             <img src="botaoX.jpg" class = "x" onclick="fecharModal()">
+             <div class = "carrinhoCarrinho">
+             <img class = "carrinhoImg2" src="carrinho.png">
+            <h2 class="tituloModal">MEU CARRINHO</h2>
+        </div>
+            <p class="carrinhoVazio">Ops, seu carrinho está vazio...</p>
+            <button onclick="fecharModal()" class="verCardapio"> Clique aqui para ver o cardápio!</button>
+        </div>
+    </div>
+
+    <div class="SlideAvaliacao">
+        <a href="avaliacao1">
+            <img src="avaliacao1.jpg" alt="Avaliação 1">
+        </a>
+        <a href="avaliacao2">
+            <img src="avaliacao2.jpg" alt="Avaliação 2">
+        </a>
+        <a href="avaliacao3">
+            <img src="avaliacao3.jpg" alt="Avaliação 3">
+        </a>
+    </div>
+
+
+
+
+<script src="modalCarrinho.js"></script>
+
+</body>
+</html>
