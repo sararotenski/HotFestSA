@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produto</title>
+    <link rel="stylesheet" href="telaAdmin.css">
+</head>
+
+<body>
+
+    <div class="branco">
+
+        <img class="logo" src="HotFest.png" alt="logo">
+
+        <div class="BarraPesquisa">
+            <input type="text" style="margin-bottom: -35px;" id="inptBusca" placeholder="Busca ex: (sobremesas...)">
+            <img class = "lupaImg" style="margin-top: -19px;" src="lupa.png" alt="lupa">
+        </div>
+        <div class="icones-gerais">
+            <img class="coroa" src="coroaAdmin.png" alt="coroaAdmin">
+    
+            <div class = "icones">
+                <img onclick = "abrirCadastro()" class = "iconeImg" src="icone.png">
+                <img class="linha" src="linha.png" alt="linha">
+                <img onclick="abrirModal()" class = "iconeImg" src="carrinho.png">
+            </div>
+        </div>
+    </div>
+
+    <div id="produtos">
+        <ul id="listaProdutos"></ul>
+    </div>
+    
+        <button onclick="adicionarProduto()" id="btnAbrirModal"> Adicionar Produto + </button>
+
+<div id="modalCadastroDeProduto" class="modalCadastroDeProduto">
+    <div class="modal-content">
+         <img src="botaoX.png" class = "x" onclick="fecharModal()">
+         <h1 class = "tituloCadastro">Cadastro de Produto</h1>
+         <div class="inptsModal">
+            <label>Nome do produto:</label><br>
+            <input type="text" class="inptNome" id="nome" placeholder="Nome do Produto" ></input>
+            <br>
+            <label>Preço:</label><br>
+            <input type="number" class="inptPreco" id="preco" placeholder="Preço do Produto" ></input>
+            <br>
+            <label>Descrição do produto:</label><br>
+            <input type="text" class="inptDesc" id="descricao" placeholder="Descrição do Produto" ></input>
+            <br>
+            <label>Faça upload da foto do produto aqui:</label><br>
+            <input type="text" class="inptImgProd" id="urlImage" placeholder="URL da imagem do produto" required>
+            <button id = "btnCadastrarProduto" onclick="cadastrarProduto()">Cadastrar Produto</button>
+            <br>
+            </div>
+            </div> 
+    
+    </div>
+    </div>
+
+    <script src="telaAdmin.js"></script>
+
+</body>
+</html>
+
