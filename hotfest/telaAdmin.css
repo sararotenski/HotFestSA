@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* reset de margens e configuração da fonte padrão */
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* estilo do body da página */
+body{
+    
+    background-color: #B21A18;
+    font-family: "Poppins", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+/* estilo para o elemento linha */
+.linha{
+    
+    height: 61px;
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+h1{
+    
+    font-family: "Poppins", sans-serif;
+    color: #adadad;
+    font-size: 25px;
+}
+
+/* estilo para o container branco */
+.branco{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffff;
+    padding: 10px 0;
+    background-size: cover;
+    height: 140px;
+    width: 100%;  
+    overflow-x: hidden;
+}
+
+/* estilo para logotipo */
+.logo{
+    
+    margin-left: 30px;
+    width: 15%;
+    cursor: pointer;
+    display: inline-block;
+    
+    
+}
+
+.BarraPesquisa{
+    width: fit-content;
+    height: auto;
+    margin: auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* estilo para a barra de busca*/
+#inptBusca{
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-size: 20px;
+    border: solid #F1EEEE;
+    border-radius: 100px;
+    padding: 20px;
+    width: 900px;
+    height: 20px;
+    margin-top: -3%;
+    background-color: #F1EEEE;
+    
+}
+
+/* estilo para imagem lupa */
+.lupaImg{
+    
+    width: 40px;
+    height: 40px;
+    margin-left: -6%;
+    margin-bottom: -2%;
+}
+
+/* estilo para o ícone de coroa */
+.coroa{
+    margin-right: 30px;
+}
+
+/* estilo para imagem do ícone */
+.iconeImg {
+    margin-left: 10px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 8px;
+    
+}
+
+.icones-gerais{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.icones{
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* estilo para a imagem do carrinho */
+.carrinhoImg {
+    
+    width: 72%;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 70px;
+    margin-bottom: -150;
+    
+}
+
+/* estilos para os input */
+input {
+    background-color: white;
+}
+
+/* estilo para o modal de cadastro de produto */
+#modalCadastroDeProduto {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #00000094;
+    margin: auto;
+}
+
+/* estilo para o botão que abre o modal */
+#btnAbrirModal {
+    border-radius: 50px;
+    background-color: #ffd930;
+    width: 250px;
+    height: 50px;
+    color: #B21A18;
+    font-size: 20px;
+    border: 1px solid #ffd930;
+    cursor: pointer;
+    margin-left: 650px;
+    margin-top: 350px;
+    position: fixed;
+}
+
+.centralizarBtn {
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding-bottom: 50px;
+}
+
+.modal-content {
+    border-radius: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    overflow-x: hidden;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    margin-right: 610px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+   
+}
+
+.x {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+ }
+
+/* estilo para o título do cadastro */
+ .tituloCadastro {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+ }
+ 
+ /* estilo para os inputs dentro do modal */
+ .inputs {
+    margin-left: 100px;
+ }
+
+
+/* estilo para o botão de cadastrar produto */
+ #btnCadastrarProduto {
+    border-radius: 50px;
+    color: white;
+    background-color: #B21A18;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+ }
+
+ #btnsalvarAlteracao{
+
+    border-radius: 50px;
+    color: white;
+    background-color: #B21A18;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+ }
+
+
+/* estilo para o campo de entrada de nome */
+.inptNome{
+
+    border-style: solid;
+    border-radius: 5px;
+    border-style: solid;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+/* estilo para o campo de entrada de preço */
+.inptPreco{
+
+    border-style: solid;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+/* estilo para o campo de entrada de descrição */
+.inptDesc{
+
+    border-style: solid;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.inptImgProd{
+    
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.inptsModal{
+
+    margin-bottom: 20px;
+}
+
+#produtos {
+    margin-top: 20px;
+    display: flex;
+}
+
+#produtos {
+    margin-top: 20px;
+}
+
+#produtos h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+#listaProdutos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.produto-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+    margin-left: 25px;
+}
+
+.produto-item:hover {
+    transform: scale(1.05);
+}
+
+.produto-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.produto-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.produto-item span {
+    font-weight: bold;
+    color: #333;
+}
