@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    background-color: #F2B705;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.grayLine{
+    background-color: #D9D9D9;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+header .topContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 240px;
+    max-width: 100%;
+}
+
+header .title {
+    font-size: 35px;
+    color: #B21A18;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+header .icons img {
+    height: 90px;
+    max-width: 100%;
+}
+
+section.main-content {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+    text-align: left;
+    overflow-y: auto;
+}
+
+.info {
+    display: block;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.addressInput,
+.obInput {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.addressInput::placeholder,
+.obInput::placeholder {
+    color: #aaa;
+}
+
+.textarea {
+    resize: vertical;
+}
+
+.status.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    height: calc(80vh - 310px);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.motoboy {
+    height: 600px;
+    margin-bottom: -100px;
+}
+
+.text {
+    font-size: 18px;
+    color: #000000;
+    margin: 0;
+}
+
+.textPrice {
+    font-size: 30px;
+    font-weight: bold;
+    color: #B21A18;
+    float: left;
+}
+
+/* Para telas menores que 768px */
+@media only screen and (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo {
+        height: 120px;
+    }
+
+    header .title {
+        font-size: 28px;
+    }
+
+    header .icons img {
+        height: 60px;
+    }
+
+    section.main-content {
+        padding: 15px;
+        height: auto;
+        flex: 1;
+    }
+
+    .input-group {
+        max-width: 100%;
+    }
+
+    .motoboy {
+        height: 500px;
+        margin-top: -90px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .textPrice {
+        font-size: 25px;
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header .topContainer {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .logo {
+        height: 100px;
+    }
+
+    header .title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    header .icons {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    header .icons img {
+        height: 50px;
+    }
+
+    section.main-content {
+        padding: 10px;
+        flex: 1;
+    }
+
+    .input-group {
+        max-width: 100%;
+    }
+
+    .addressInput, .obInput {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .motoboy {
+        height: 550px;
+        margin-top: -100px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .textPrice {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+}
