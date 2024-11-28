@@ -3,7 +3,7 @@
 
 <h1 align = center>🌭Sobre a empresa🌭</h1>
 
-<p align = center>Nosso trabalho consistiu na criação da marca HotFest, uma lanchonete de cachorro-quente especializada em apresentar sabores diferentes aos clientes, como cachorros-quentes doces e de sushi. Pensando nisso, nós desenvolvemos um site para proporcionar ao cliente uma forma fácil de rápida de realizar seus pedidos, além da parte específica para o Admin, onde ele pode cadastrar os produtos. </p>
+<p align = center>Nosso trabalho consistiu na criação da marca HotFest, uma lanchonete de cachorro-quente especializada em apresentar sabores diferentes aos clientes, como cachorros-quentes doces e de sushi. Pensando nisso, nós desenvolvemos um site para proporcionar ao cliente uma forma fácil e rápida de realizar seus pedidos, além da parte específica para o Admin, onde ele pode cadastrar os produtos. </p>
 
 <h1 align = center>🌭Tela Inicial🌭</h1>
 <img src="/hotFestPrints/hotFestPrint-telaInicial.png">
